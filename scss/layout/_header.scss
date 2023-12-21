@@ -1,0 +1,17 @@
+@use '../abstracts/colors' as *;
+
+header {
+  font-family: sans-serif;
+  background: $color-second;
+  color: $color-first;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav-items {
+      @extend nav;
+    }
+  }
+}

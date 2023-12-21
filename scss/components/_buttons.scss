@@ -1,0 +1,132 @@
+.btn1 {
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn1:hover {
+  background: var(--Primary-Pink, #f72585);
+}
+.btn2 {
+  display: inline-flex;
+  padding: 14px 40px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  color: #f72585;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+  background: var(--primary-20-pink, #fff5f9);
+}
+.btn2:hover {
+  background: var(--Primary-Pink, #f72585);
+  color: #fff;
+}
+.btn2:hover * {
+  fill: #fff;
+}
+.btn3 {
+  display: inline-flex;
+  padding: 14px 32px;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  color: #f72585;
+  border-radius: 8px;
+  background: var(--primary-20-pink, #fff5f9);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn3:hover {
+  background: var(--Primary-Pink, #f72585);
+  color: #fff;
+}
+.btn3:hover * {
+  fill: #fff;
+}
+.offbtn {
+  width: 109px;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Other-Red, #ef233c);
+}
+.btn4 {
+  display: flex;
+  width: 376px;
+  padding: 24px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid var(--Primary-Pink, #f72585);
+  font-size: 16px;
+  background: 0;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #ef233c;
+}
+.btn4:hover {
+  background: var(--Primary-Pink, #f72585);
+  color: #fff;
+}
+.btn5 {
+  display: flex;
+  max-width: 728px;
+  padding: 24px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--Primary-Pink, #f72585);
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn5:hover {
+  background: #a9235f;
+}
+.btn6 {
+  display: inline-flex;
+  padding: 16px 40px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--Primary-Pink, #f72585);
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  transition: 0.5s;
+  color: #fff;
+}
+.btn6:hover {
+  background: #a9235f;
+}
+.ui {
+  width: 131px;
+  height: 32px;
+  border: 0;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--Other-Blue, #4586d6);
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 203px;
+  left: 78px;
+}
